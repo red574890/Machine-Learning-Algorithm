@@ -1,2 +1,2 @@
 # Machine-Learning-Algorithm
-This is a place for me to practice all the algoirthm I learned
+This is a place for me to store all the machine learning algoirthm I learned
