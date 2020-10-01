@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # load and process the data
-dataset=pd.read_csv(r'/Users/hsuyunhuung/Documents/機器學習/hw1_15_train.dat.txt',sep=" ",header=None)
+dataset=pd.read_csv(r'/Users/hsuyunhuung/Documents/機器學習/hw1_18_train.dat.txt',sep=" ",header=None)
 dataset[3],dataset[4]=dataset[3].str.split("\t",1).str
 
 dataset.insert(0,"constant",1) # add constant value (X0)
@@ -31,17 +31,17 @@ while(times<=100):   # we will run the iteration 100 times.
         if(np.sign(np.dot(wt.T, x))!=y): #check how much error does current w has
             error+=1
             w=y*np.array(x)            #wt=w+yx
-        if(times==0):
-            least_error=error
-            wt=w+wt
-        if(error>0):
-            wt=w+wt
-        if(least_error>error):
-            print(error)
-            
-            wpocket=w+wt            # put the w with least error into pocket
-            print(wpocket)
-            least_error=error
+    if(least_error>error):
+        print(error)            
+        wpocket=wt            # put the w with least error into pocket
+        print(wpocket)
+        least_error=error
+    if(times==0):
+        least_error=error
+        wt=w+wt
+    if(error>0):
+        wt=w+wt
+
     times+=1
 
 
@@ -57,7 +57,7 @@ for i in range(0,len(testdata)):
     x=[float(testdata["constant"][i]),float(testdata[0][i]),float(testdata[1][i]),float(testdata[2][i]),float(testdata[3][i])]
     x=np.array(x)
     y=float(testdata[4][i])
-    if(np.sign(np.dot(wt.T, x))!=y):
+    if(np.sign(np.dot(wpocket.T, x))!=y):
         terror+=1
 
 print("The accuracy is "+str((len(testdata)-terror)/len(testdata)*100)+"%")
