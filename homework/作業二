@@ -1,0 +1,36 @@
+1.Questions 1-2 are about noisy targets.
+
+two situation.
+
+First, prediction is right, but was affected by noise. (1-u)(1-λ)
+Second, prediction is wrong, and was not addected by noise. uλ
+
+A:(1-u)(1-λ)+uλ -> D
+
+2. Following Question 1, with what value of λ will the performance of h be independent of μ?
+
+Explaination: μ cannot affect the result of (1-u)(1-λ)+uλ
+
+(1-u)(1-λ)+uλ => u(2λ-1)+(1-λ)  When λ= 0.5, u(2λ-1 will always be 0 
+
+A: λ=0.5 -> D
+
+3. Questions 3-5 are about generalization error, and getting the feel of the bounds numerically. 
+
+ϵ=0.05 (generalizationerror), δ=0.05(confidenceerror), dvc=10
+
+
+ϵ=sqrt((8/N)ln((4(2N)^dvc))/δ),  put the above value into the equation
+
+sqrt(log((4*(2*N)^10)/0.05,exp(1))*(8/N))
+N=420000 ϵ=0.05178593
+N=440000 ϵ=0.05067881
+N=460000 ϵ=0.04964278 * The closest 
+N=480000 ϵ=0.04867048
+N=500000 ϵ=0.04775557
+
+A: N=460000 ->C
+
+4. There are a number of bounds on the generalization error ϵ, all holding with probability at least......
+
+
