@@ -33,4 +33,69 @@ A: N=460000 ->C
 
 4. There are a number of bounds on the generalization error ϵ, all holding with probability at least......
 
+Original VC bound:             ϵ<=0.6321749
+Rademacher Penalty Bound:      ϵ<=0.3313088
+Parrondo and Van den Broek:    ϵ<=0.2236206
+Devroye:                       ϵ<=??
+Variant VC bound:              ϵ<=0.860426
+
+A: Parrondo and Van den Broek
+
+5. Continuing from Question 4, for small N, say N=5, which bound is the tightest (smallest)?
+Original VC bound:             ϵ<=13.82816
+Rademacher Penalty Bound:      ϵ<=7.048777
+Parrondo and Van den Broek:    ϵ<=4.899321
+Devroye:                       ϵ<=4.068609
+Variant VC bound:              ϵ<=16.26411
+
+A: Devroye
+
+6. In Questions 6-11, you are asked to play with the growth function or VC-dimension of some hypothesis sets
+
+First situation  : Select 2 points from N points. Within is positive(+1) and without is negative(-1)
+Second Situation : Select 2 points from N points. Within is negative(-1) and without is positive(+1)
+2*C(N,2)=N^2-N+2
+A: N^2-N+2 ->A
+
+7.Continuing from the previous problem, what is the VC-dimension of the hypothesis set of "positive-and-negative intervals on 
+R''?
+
+N=1
+N^2-N+2=2 > N^2
+N=2
+N^2-N+2=4 = N^2
+N=3
+9-3+2=8 < N^2=9  breakpoint
+
+VC-dimension= last non-breakpoint
+
+Therefore, the answer is 2
+A:2 -> E
+
+8.
+What is the growth function of "positive donuts?
+
+donut is actually an interval question. When one point is have equal distance to (0,0) with other points, they will have the same sign.
+
+the line is like following
+
+0-o-o-o-o-o-o-o
+
+pick two o from this interval, which is C(N+1,2) (including 0), and add one option that is select the same point.
+
+Thus, C(N+1,2)+1
+
+A: C(N+1,2)+1 -> B
+
+9. Consider the "polynomial discriminant'' hypothesis set of degree What is the VC-dimension of such an H?
+
+This is actually perceptron. As we learn from the course, the answer is D+1
+
+A: D+1 -> B
+
+
+
+
+
+
 
