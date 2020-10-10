@@ -93,6 +93,54 @@ This is actually perceptron. As we learn from the course, the answer is D+1
 
 A: D+1 -> B
 
+10. Consider the "simplified decision trees'' hypothesis set on.....
+
+vi = [[xi > ti]] represents that if x>t, v=+1. if x<=t, v=-1
+S is the collection of vectors in {0,1}^2, which means S has four vectors, s1=(0,0), s2=(0,1), s3=(1,0), s4=(1,1)
+
+for further explaination can go check here
+http://countchu2.blogspot.com/2018/01/machine-learning-foundations-question-10.html
+
+A: A
+
+11.Consider the "triangle waves'' hypothesis set on R, which is given by......
+
+in this question, we know that
+
+0<axmod4<1    +
+
+1<axmod4<3    -
+
+3<axmod4<4    +
+
+for N points, you can always find a point to fit into this interval. No matter how many points are there.
+
+For example, 2 points  x1=7.5 y1=+1, x2=1.5 y2=-1,   (o,x)
+                       x1=7.5 y1=+1, x2=7.4 y2=+1,   (o,o)
+                       x1=1.6 y1=-1, x2=1.5 y2=-1,   (x,x)
+                       x1=1.6 y1=-1, x2=7.4 y2=-1,   (x,o)
+you can create any kind of combination to shatter all the possible points.
+
+Therefore, there is no VC-dimension
+A: C
+
+
+12. In Questions 12-15, you are asked to verify some properties or bounds on the growth function and VC-dimension.
+
+The bounding function will be B(N,k)<= sigma C(N,i), i=0~k-1
+In this question, k=dvc+1
+
+???
+
+13.
+
+a. 2^N  for example, convex set
+b. 2^[sqrt(N)]   ???
+c.1, it cound be only +1 in this hypothesis
+d. double interval
+e.
+
+14.
 
 
 
