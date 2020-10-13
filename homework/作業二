@@ -58,19 +58,22 @@ Second Situation : Select 2 points from N points. Within is negative(-1) and wit
 A: N^2-N+2 ->A
 
 7.Continuing from the previous problem, what is the VC-dimension of the hypothesis set of "positive-and-negative intervals on 
-R''?
+R''? wrong
 
 N=1
 N^2-N+2=2 > N^2
 N=2
 N^2-N+2=4 = N^2
 N=3
-9-3+2=8 < N^2=9  breakpoint
+9-3+2=8 = 2^N=8 
+
+N=4
+16-4+2=14 = 2^4=16  breakpoint
 
 VC-dimension= last non-breakpoint
 
-Therefore, the answer is 2
-A:2 -> E
+Therefore, the answer is 3
+A:3 -> D
 
 8.
 What is the growth function of "positive donuts?
@@ -140,7 +143,7 @@ c.1, it cound be only +1 in this hypothesis
 d. double interval
 e.
 
-14.
+14. wrong
 
 
 
