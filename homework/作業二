@@ -41,14 +41,14 @@ Variant VC bound:              ϵ<=0.860426
 
 A: Parrondo and Van den Broek
 
-5. Continuing from Question 4, for small N, say N=5, which bound is the tightest (smallest)?
+5. Continuing from Question 4, for small N, say N=5, which bound is the tightest (smallest)? (wrong)
 Original VC bound:             ϵ<=13.82816
 Rademacher Penalty Bound:      ϵ<=7.048777
 Parrondo and Van den Broek:    ϵ<=4.899321
-Devroye:                       ϵ<=4.068609
+Devroye:                       ϵ<=20.343046593251703
 Variant VC bound:              ϵ<=16.26411
 
-A: Devroye
+A: Parrondo and Van den Broek
 
 6. In Questions 6-11, you are asked to play with the growth function or VC-dimension of some hypothesis sets
 
@@ -73,7 +73,7 @@ N=4
 VC-dimension= last non-breakpoint
 
 Therefore, the answer is 3
-A:3 -> D
+A:3 -> A
 
 8.
 What is the growth function of "positive donuts?
@@ -143,7 +143,9 @@ c.1, it cound be only +1 in this hypothesis
 d. double interval
 e.
 
-14. wrong
+14. ??
+
+15. ??
 
 
 
