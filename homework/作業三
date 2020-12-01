@@ -1,3 +1,17 @@
 1.帶入數字可以得到 N>45. 選項大於45的最小值為100       A -> C
 
 2.
+A:D 是對的 X
+B: not sure
+C: not sure
+D: H^1126=H  當 H 投影時，投影一次跟投影1126次會得到一樣的結果,故 選D
+E: H 並不是永遠都 invertible
+
+3. Which of the following is an upper bound of [[sign(wTx)≠y]] for y∈{−1,+1}?
+This refer to the maximum error for PLA
+
+A:
+B:
+C:
+D:
+E:
