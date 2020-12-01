@@ -9,9 +9,14 @@ E: H 並不是永遠都 invertible
 
 3. Which of the following is an upper bound of [[sign(wTx)≠y]] for y∈{−1,+1}?
 This refer to the maximum error for PLA
+When error happens, the inequation will be like this
+y*(w^T)x < 0
 
-A:
-B:
-C:
-D:
-E:
+A:err(w)=[[w^Tx≥y]] should not be inequation X
+B:err(w)=max(0,−yw^Tx)   if y=1 but w^Tx=0, err will be 0. However, in this situation err should be 1.
+C:err(w)=1/2* exp(−yw^Tx) in this, err will always within a range
+D:none of the other choices
+E:err(w)=max(0,1−yw^Tx) if y=1 but w^Tx=0, err will be 1. correct V
+
+
+
