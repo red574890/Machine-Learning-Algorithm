@@ -19,4 +19,7 @@ D:none of the other choices
 E:err(w)=max(0,1−yw^Tx) if y=1 but w^Tx=0, err will be 1. correct V
 
 
+4.
+Which of the following is a differentiable function of w everywhere?
+
 
