@@ -18,8 +18,16 @@ C:err(w)=1/2* exp(−yw^Tx) in this, err will always within a range
 D:none of the other choices
 E:err(w)=max(0,1−yw^Tx) if y=1 but w^Tx=0, err will be 1. correct V
 
+A->E
+
 
 4.
 Which of the following is a differentiable function of w everywhere?
+可微函數代表此函數在每一點都沒有垂直切線
+err(w)= 1/2*exp(−yw^Tx) 僅有此切線全皆可微
+
+
+
+
 
 
