@@ -5,4 +5,6 @@ A:a quadratic programming problem with N+d+1 variables
 
 2. What is the equation of the optimal separating hyperplane in the Z space?
 
-A
+A:z1=4.5
+
+
