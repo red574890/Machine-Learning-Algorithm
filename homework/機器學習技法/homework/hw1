@@ -1,0 +1,8 @@
+1. Recall that N is the size of the data set and d is the dimensionality of the input space. 
+The primal formulation of the linear soft-margin support vector machine problem, without going through the Lagrangian dual problem, is
+
+A:a quadratic programming problem with N+d+1 variables
+
+2. What is the equation of the optimal separating hyperplane in the Z space?
+
+A
