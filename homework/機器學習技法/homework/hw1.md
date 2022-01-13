@@ -20,3 +20,7 @@ A. 1/9*(8x1^2−16x1+6x2^2−15)=0
 5. Compare the two nonlinear curves found in Questions 2 and 4, which of the following is true?
 A. 
 The curves should be different in the X space, because they are learned with respect to different Z spaces
+
+
+6. Original Largange function is 
+L(b,w,c) = 1/2*w*
