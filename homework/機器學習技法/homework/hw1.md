@@ -22,5 +22,4 @@ A.
 The curves should be different in the X space, because they are learned with respect to different Z spaces
 
 
-6. Original Largange function is 
-L(b,w,c) = 1/2*w*
+6. 
